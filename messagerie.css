@@ -17,6 +17,10 @@ body{
     display: flex;
     height: 80px;
     align-items: center;
+    margin-bottom: 15px;
+}
+.messageJaune{
+    flex-direction: row-reverse;
 
 }
 .profile{
@@ -28,8 +32,31 @@ body{
 .elementMessage{
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
-    
+    margin-left: 10px;  
+}
+.messageJaune>.elementMessage{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.nomMess{
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+}
+.messageJaune .nomMess{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: ;
+}
+.heureMess{
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+}
+.messageJaune .heureMess{
+    display: flex;
+    justify-content: end;
 }
 .nomProfile{
     color: #767676;
@@ -37,4 +64,40 @@ body{
     font-weight: 500;
     font-family: 'Roboto';
     margin-left: 22px;
+}
+.messageJaune .nomProfile{
+    margin-left: 0px;
+    margin-right: 22px;
+    text-align: right;
+}
+.bulle{
+    height: 46px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: #EDEDED;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+.texteMessage{
+    color: #545454;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    margin-left: 10px;
+    
+}
+.heureEnvoie{
+    color: #BABABA;
+    font-size: 8px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    margin-left: 22px;
+}
+.messageJaune .heureEnvoie{
+    margin-left: 0px;
+    margin-right: 22px;
+    text-align: right;
 }
